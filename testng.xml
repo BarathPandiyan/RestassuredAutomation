@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite-1" >
+	<test name="Test Case-1" >
+		<classes>
+			<class name="com.api.tests.TC001_GET_Request"/>
+			<class name="com.api.tests.TC002_POST_Request"/>
+			<class name="com.api.tests.TC003_DELETE_Request"/>
+			<class name="com.api.tests.TCOO4_PUT_Request"/>
+		</classes> 
+	</test>
+</suite>
